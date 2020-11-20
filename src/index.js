@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import TodoList from './components/TodoList';
+import Header from './components/Header'
 import { Card } from "@material-ui/core";
 
 
@@ -11,6 +12,7 @@ import { Card } from "@material-ui/core";
 
 ReactDOM.render(
   <Card>
+    <Header />
     <TodoList />
   </Card>,
   destination
