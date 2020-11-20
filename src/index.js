@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import TodoList from './components/TodoList';
+import { Card } from "@material-ui/core";
+
+
+
+  let destination = document.querySelector('#container')
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <Card>
+    <TodoList />
+  </Card>,
+  destination
 );
 
 // If you want to start measuring performance in your app, pass a function

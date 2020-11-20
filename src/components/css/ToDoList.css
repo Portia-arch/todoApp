@@ -1,0 +1,85 @@
+.todoListMain .header input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #FFF;
+    width: 265px;
+  }
+  .todoListMain .header button {
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px;
+    margin-right: 0px;
+    background-color: #0066FF;
+    color: #FFF;
+    border: 2px solid #2d0138;
+    border-radius: 5px;
+  }
+  .todoListMain .header button:hover {
+    background-color: #003399;
+    border: 2px solid #2d0138;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .todoListMain .theList {
+      padding: 30px;
+      height: 500px;
+    list-style: none;
+    padding-left: 0;
+    width: 250px;
+  } 
+  .todoListMain .theList li {
+    color: #333;
+    background-color: rgba(204, 131, 131, 0.5);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    list-style: none;
+  }
+  ul.theList {
+    padding: 0;
+  }
+
+.todoListMain .theList li {
+  color: #333;
+  background-color: rgba(59, 15, 15, 0.5);
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+
+  transition: background-color .2s ease-out;
+}
+
+.todoListMain .theList li:hover {
+  background-color: rgb(136, 15, 36);
+  color: #FFF;
+  cursor: pointer;
+}
+
+.todoListMain {
+  display: flex;
+  border: 2px solid #12dfbd;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.header {
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.drag {
+  background-color: #4AAE9B;
+  font-weight: normal;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.drop {
+  background-color: #6DB65B;
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 10px;
+}
